@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>
+    document.body.style.cursor = 'none';
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-YMWDE0VTD3");
+  </script>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#000" />
+  <meta name="description"
+    content="Yiğit Ateş | Portfolio, Visit and know about me & my projects/designs." />
+  <meta name="author" content="Yiğit Ateş" />
+  <meta property="og:image" content="https://www.vinodjangid.site/src/png/Preview-card-min.png" />
+  <meta property="og:title" content="Yiğit Ateş | Portfolio" />
+  <meta property="og:description"
+    content="Hi! My name is Yiğit. I'm an indie game developer and digital visual artist. Visit and know about me & my projects/designs." />
+
+  <meta property="og:url" content="https://vinodjangid.site" />
+  <meta property="og:site_name" content="Vinod Jangid Portfolio" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@stosatido" />
+  <meta name="twitter:title" content="Yiğit Ateş | Portfolio" />
+  <meta name="twitter:description"
+  content="Hi! My name is Yiğit. I'm an indie game developer and digital visual artist. Visit and know about me & my projects/designs." />
+  <meta name="twitter:image" content="https://www.vinodjangid.site/src/png/Preview-card-min.png" />
+  <title>NV Motorsport | Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="src/png/sati.png" />
+  <!-- aos cdn -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- google fonts-->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps" />
+
+<body class="body">
+  <audio loop="" id="audioPlayer" style="display: none">
+    <source src="src/mp3/preloader.mp3" type="audio/mp3" />
+  </audio>
+  <div id="preloader"></div>
+  <noscript>Allow Javascript</noscript>
+
+  <header>
+    <div class="cursor-inner" id="cursor-inner"></div>
+    <div class="cursor-outer" id="cursor-outer"></div>
+
+    <div class="navbar" id="navbar">
+      <div class="hey">Hey!</div>
+      <div class="logo" tabindex="0" aria-label="satido logo">
+        <div class="logo-top">
+          <img src="src/png/sati_border.png"/>
+        </div>
+      </div>
+      <div class="navbar-tabs" id="navbar-tabs">
+        <ul class="navbar-tabs-ul">
+          <li class="home activeThistab" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="100">
+            <a href="#home" tabindex="0" aria-label="Home menu button">
+              Home
+            </a>
+          </li>
+
+          <li class="about" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="300">
+            <a href="#about" aria-label="about menu button">
+              About Us
+            </a>
+          </li>
+
+          <li class="skills" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+            <a href="#skills" aria-label="skills menu button">
+              Achievements
+            </a>
+          </li>
+
+          <li class="projects" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+            <a href="#projects" aria-label="projects menu button">
+              Sponsors
+            </a>
+          </li>
+          <li>
+            <div class="setting-container" id="setting-container">
+              <input type="checkbox" id="switchforsetting" onclick="settingtoggle()" />
+  
+              <label for="switchforsetting" class="needtobeinvert" id="labelforsetting" tabindex="0"
+                aria-label="settings for sound and appearance"></label>
+  
+              <div class="visualmodetogglebuttoncontainer" id="visualmodetogglebuttoncontainer">
+                <input type="checkbox" id="switchforvisualmode" onclick="visualmode()" />
+                <label for="switchforvisualmode" id="labelforvisualmode" tabindex="0"
+                  aria-label="switch appearance"></label>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- navbar tabs ends -->
+    </div>
+  </header>
+  <!-- header ends here -->
+
+  <main>
+    <!-- hamburger -->
+    <div class="hamburger" id="hamburger" data-aos="fade">
+      <div class="hamburgerbase">
+        <button id="hamburger-button" onclick="hamburgerMenu()" tabindex="0" aria-label="Menu Button">
+          <span class="burger-bar" id="burger-bar1"></span>
+          <span class="burger-bar" id="burger-bar2"></span>
+          <span class="burger-bar" id="burger-bar3"></span>
+        </button>
+      </div>
+    </div>
+    <!-- hamburger -->
+    <div class="mobiletogglemenu" id="mobiletogglemenu">
+      <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
+        <li id="home-mobile-tab" class="mobile-navbar-tabs-li home activeThismobiletab" onclick="hidemenubyli()">
+          <a href="#home" tabindex="0" aria-label="Home menu button">
+            Home
+          </a>
+        </li>
+
+        <li id="aboutme-mobile-tab" class="mobile-navbar-tabs-li about" onclick="hidemenubyli()">
+          <a href="#about" tabindex="0" aria-label="about menu button">
+            About Us
+          </a>
+        </li>
+        <li id="skills-mobile-tab" class="mobile-navbar-tabs-li skills" onclick="hidemenubyli()">
+          <a href="#skills" tabindex="0" aria-label="skills menu button">
+            Achievements
+          </a>
+        </li>
+        <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
+          <a href="#projects" tabindex="0" aria-label="projects menu button">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- mobile toggle menu ends -->
+
+    <section class="landing-page-container" id="home">
+      <div class="blob"></div>
+
+      <div class="text-content">
+        <article id="name" data-aos="fade-up" data-aos-delay="200">
+          <p class="">N</p>
+          <p class="">V</p>
+        </article>
+
+        <article id="work" data-aos="fade-up" data-aos-delay="400">
+          <div>
+            <p class="">M</p>
+            <p class="">o</p>
+            <p class="">t</p>
+            <p class="">o</p>
+            <p class="">r</p>
+            <p class="">s</p>
+            <p class="">p</p>
+            <p class="">o</p>
+            <p class="">r</p>
+            <p class="">t</p>
+          </div>
+        </article>
+        <p id="info-para" data-aos="fade-up" data-aos-delay="600">
+          A new era of speed and precision. 
+          <br>
+          Fueled by innovation, driven by passion.
+          <br> 
+          Redefining racing for the modern day.
+        </p>
+        <div class="contact-btn-div" data-aos="fade-up" data-aos-delay="800">
+          </div>
+          <!-- setting div ends -->
+        </div>
+        <!-- contact-btn-div -->
+      </div>
+     
+    </section>
+    <!-- landing page ends here -->
+    <section class="about-section-container" id="about" data-aos="fade-up">
+      <div class="about-section">
+        <div class="section-heading">
+          <h2 class="section-heading-article" tabindex="0" aria-label="About me heading">
+            About Us
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <div class="info-dp-section">
+          <div class="about-info">
+            <p tabindex="0">
+              NV Motorsport is a cutting-edge sim racing team built for the modern era of motorsport. Combining precision, strategy, and raw speed, we push the limits of virtual racing with a relentless drive for excellence. Rooted in innovation and fueled by passion, we embrace the latest technology, data-driven performance, and bold racecraft to compete at the highest level. Whether it’s endurance battles or sprint showdowns.
+              <br>
+              
+              <br>
+              But we’re more than just a team.
+              NV Motorsport is here to redefine the future of racing-
+              one lap at a time.
+            </p>
+          </div>
+
+          <div class="dp" data-aos="fade-up">
+            <img src="src/png/nv_photo.png" alt="Vinod Jangid" tabindex="0" aria-label="logo of satido" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends  -->
+
+    <section class="skills-section-container" id="skills">
+      <div class="skills-section">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article" tabindex="0" aria-label="skills heading">
+            Achievements
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <div class="frontend-dev-section">
+          <ul class="tech-stack-wrapper">
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/25r1.png" alt="github skill" class="tech-stack-logo needtobeinvert" />
+              <span class="tooltip">2025 Sebring 12H</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- skills section ends -->
+    <section class="projects-section-container" id="projects">
+      <div class="projects-section-div">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article" tabindex="0" aria-label="My projects starts from here">
+            Sponsors
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+        <div class="project-boxes-div">
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <img src="src/png/racedata.png" alt="F1 Logo" class="faviconforProject" />
+                <p class="ProjectDescription">
+                  RaceData.AI is a professional racing telemetry analysis platform that provides data-driven insights to help drivers and teams optimize their racing.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://racedata.ai" target="_blank" class="github-redirect"
+                    aria-label="Visit RACEDATA.AI">
+                    <img src="src/png/visit.png" alt="redirect button" />
+                  </a>
+                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/png/racedata_pre.jpg" alt="racedata website preview image" />
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- main ends here -->
+
+  <footer id="footer">
+    <button class="fas" id="backtotopbutton" onclick="scrolltoTopfunction()">
+      <article aria-label="Back to top">&#8592;BACK TO TOP</article>
+    </button>
+    <div class="footer-background">
+      <div class="footer-blob"></div>
+    </div>
+    <div class="footer-foreground">
+      <div class="footercontainer">
+        <div class="two-words">
+          <article tabindex="0" aria-label="Learning, Living, and Leveling Up, my quote">
+            "Speed. Precision. Legacy."
+          </article>
+        </div>
+        <div class="social-media-container">
+          <div class="getintouch-heading">
+            <article>CONTACT US</article>
+          </div>
+          <div class="logos">
+            <a href="https://www.x.com/neroventosport/" target="_blank" tabindex="0"
+              aria-label="Our X"><svg width="500" height="514" viewBox="0 0 1200 1227" class="SocialHandle">
+                <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z" fill="white"/>
+              </svg>
+
+              <a href="https://www.instagram.com/neroventosport/" target="_blank" tabindex="0" aria-label="Our instagram"><svg viewBox="0 0 448 512" class="SocialHandle">
+                <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+              </svg></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <article>
+            Design & Built by Yiğit Ateş
+            &#169; 2025
+          </article>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer ends here -->
+
+  <script src="main.js"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
